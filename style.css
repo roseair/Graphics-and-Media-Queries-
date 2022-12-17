@@ -1,0 +1,25 @@
+svg{
+  background-color:lightblue;
+}
+
+circle{
+  fill:lavender;
+  stroke:white;
+  stroke-width: 5px;
+}
+
+body{
+background:lightblue url("https://bit.ly/3h2VSOf") 50% 50% no-repeat;
+height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightcoral;
+    color:navy;
+  }
+
+  h1{
+    border:solid lavender 3px;
+  }
+}
